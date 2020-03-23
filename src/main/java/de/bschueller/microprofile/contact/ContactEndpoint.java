@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 @Path("/contacts")
 @RequestScoped
-public class ContactsEndpoint {
+public class ContactEndpoint {
 
     @Inject
     ContactResource contactResource;
